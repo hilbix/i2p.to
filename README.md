@@ -17,8 +17,11 @@ Well, after some years now I can say, this plan did not hold.  It became even mo
 
 To checkout all the pieces do this:
 ```bash
-git clone https://github.com/hilbix/i2p.to-complete
-cd i2p.to-complete
+git clone https://github.com/hilbix/i2p.to-src i2p.to
+cd i2p.to
+git branch -av
+# switch to the wanted branch:
+git checkout BRANCH
 git submodule init
 git submodule update
 ```
@@ -38,11 +41,11 @@ How to fork this
 ----------------
 
 Please don't fork this repository here, it's for my personal use.  But feel free to fork all the sub repositories.
-To make this more easy there are some bundling sub-repositories which are quite redundant:
+To make this more easy there is some bundling sub-repository which bundles all the other repositories.
 
-- https://github.com/hilbix/i2p.to-complete bundles just everything.
-- https://github.com/hilbix/i2p.to-full bundles just the i2p.to specific stuff but no contrib repositories.
-- Other ones might follow.
+https://github.com/hilbix/i2p.to-src
+
+It has some branches which limit the modules to check out.  But it does not contain any personal notes.
 
 
 How to create an I2P inproxy
