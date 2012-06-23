@@ -17,19 +17,32 @@ Well, after some years now I can say, this plan did not hold.  It became even mo
 
 To checkout all the pieces do this:
 ```bash
-git clone https://github.com/hilbix/i2p.to
-cd i2p.to
+git clone https://github.com/hilbix/i2p.to-complete
+cd i2p.to-complete
 git submodule init
 git submodule update
 ```
 
-Now you have all the pieces, you can try to glue it all together.  But don't expect it will be easy.
+Better don't clone this repository here, as it contains trainloads of redundant sub-repositories.
+
+If you have all the pieces, you can try to glue it all together, somehow.  But don't expect it will be easy.
 
 BTW:
 
 - Most pieces are missing today.  But, eventually, I find some time to add one or the other.
 - This repository here is to - perhaps - add some documentation or other hints.  Currently these are missing, too.
 - All the other pieces will be left alone, that is, they will not be altered to get better readable.
+
+
+How to fork this
+----------------
+
+Please don't fork this repository here, it's for my personal use.  But feel free to fork all the sub repositories.
+To make this more easy there are some bundling sub-repositories which are quite redundant:
+
+- https://github.com/hilbix/i2p.to-complete bundles just everything.
+- https://github.com/hilbix/i2p.to-full bundles just the i2p.to specific stuff but no contrib repositories.
+- Other ones might follow.
 
 
 How to create an I2P inproxy
@@ -46,9 +59,22 @@ If you think to create something similar to i2p.to, there are following ways:
 Note that according to my FAQ the domain i2p.to will be dedicated to the I2P project in case something evil happens to me.  And no, I cannot give you a shell on my server such that you can help me out when I have no time.
 
 
+Legal stuff
+-----------
 
-How to contact me, Tino, the source of all this mess
-----------------------------------------------------
+Quite often there is a license missing.  Sorry for that, but I really have no time to be hindered by filling out some disruptive legal notes.
+
+Note that most parts here have no Copyright note.  This is because I am German.  The German Urheberrecht is better than Copyright, as you do not need to state your authorship to protect your work.  It only needs to be clear who the author is.  For example by publishing it on GitHub under the own name.  Exactly what I do here.
+
+As I publish the source codes, they can be used freely, in private, commercially, military, whatever.  But I do not dedicate the sources into the Public Domain.  As doing so would mean that I drop my Urheberrecht, what I never want to do.
+
+Perhaps I will clear this up in future a bit more.  Important for you is, that if you use something you find here, I will never come around and sue you or ask for a donation.  Not even if you sell my work for money.  I did all this for the I2P project, irrevocably, and it is dedicated to them.
+
+Another legal plug is, that if you use anything here, I am not liable for what happens.  You have the source, can read my ideas and must decide yourself, which might be dangerous to your data.  That it is running without problems at my side does not mean that it is free from bugs nor that there is any warranty ferom my side.  So it's solely your own responsibility if you use my code.  In contrast, I wrote, that this here is a big mess and that you should abstain from using it, right?
+
+
+How to contact me, Tino, author of all this mess
+------------------------------------------------
 
 It's not easy to reach me the usual way.  Usually I am not at home, and I hate handing out the number of my mobile.  I stopped reading eMail for years now because it is drowned by SPAM.  Not the usual one, this is handled by Google Mail's SPAM filter quite effectively.  I am talking of thousands of mails my servers send to me each day.  Having no time to fix that I don't expect to change in this decade.  At least I have some life outside the Internet, too.  Quite few, but there is some.
 
@@ -59,3 +85,7 @@ https://hydra.geht.net/pager.php
 If you send mail to webmaster@scylla-charybis.com I eventually read your mail one day.  But don't expect this to be before the famous 32 bit unix timestamp overflow in 2038.  I am **not** kidding. 
 
 -Tino
+Valentin Hilbig
+Am Sportfeld 5
+86482 Aystetten
+
